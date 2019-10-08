@@ -17,5 +17,6 @@ class String
   def count_sentences
     arr = []
     arr << self.split(/\?|\.|!/)
+    arr 
   end
 end
